@@ -1,4 +1,4 @@
-sudo pacaman -S -y  firefox hyprland gparted neofetch minecraft-launcher code python gcc wine steam obs-studio spotify
+sudo pacaman -S -y  firefox hyprland gparted neofetch minecraft-launcher code python gcc wine steam obs-studio spotify lolcat
 sudo pacman -S --needed -y git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -11,5 +11,6 @@ flatpak install flathub com.spotify.Client
 
 sudo mv config.conf $HOME/.config/neofetch/config.conf
 
+sudo mv bashrc $HOME/.bachrc
 bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/setup-arch.sh)
 
