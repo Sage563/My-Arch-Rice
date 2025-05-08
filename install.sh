@@ -1,4 +1,4 @@
-sudo pacaman -S -y  firefox hyprland gparted neofetch minecraft-launcher code python gcc wine steam obs-studio spotify lolcat
+sudo pacaman -S -y  firefox hyprland gparted neofetch minecraft-launcher code python gcc wine steam obs-studio spotify lolcat sl
 sudo pacman -S --needed -y git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
